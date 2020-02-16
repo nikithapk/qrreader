@@ -95,7 +95,7 @@ form {
 
 <h3>Claim Goodie Tool </h3>
 <br><br><br>
-<input name ="qr_text" type=text size=16 placeholder="Tracking Code" class=qrcode-text><label class=qrcode-text-btn><input type=file accept="image/*" capture=environment onchange="openQRCamera(this);" tabindex=-1></label> 
+<input name ="qr_text" type=text size=16 placeholder="Tracking Code" class=qrcode-text autocomplete="false"><label class=qrcode-text-btn><input type=file accept="image/*" capture=environment onchange="openQRCamera(this);" tabindex=-1></label> 
 <input type="hidden" name="qr_key" value="5b50207e7779ec6c9e4fdd91064b350d">
 <br><br><br>
 <input type="submit" value="Go" >
